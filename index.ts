@@ -31,4 +31,4 @@ app.post('/', upload.single('avatar'), async (req: Request, res: Response) => {
   }
 });
 
-app.listen(3000, () => console.log('App runing port 3000'));
+app.listen(3000, () => console.log('App running port 3000'));
