@@ -1,23 +1,19 @@
-# Bảo mật file upload bằng Node.js
+# Node.js Secure File Upload
 
-Kiểm tra tính hợp lệ của file được upload.
+The file type is detected by checking the magic number of the buffer.
 
-## Yêu cầu
+## Requires
 
-- Node.js 16 hoặc cao hơn, Typescript, Yarn
+- Node.js >= 16
+- Typescript
+- Yarn
 
-## Cách sử dụng
-
-Thực hiện các lệnh bên dưới:
+## Usage
 
 ```bash
 yarn install
-```
 
-```bash
 yarn build
-```
 
-```bash
 yarn start
 ```
